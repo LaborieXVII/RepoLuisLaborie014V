@@ -1,0 +1,377 @@
+
+
+.header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 6px rgb(192, 192, 192);
+}
+
+#petlovers{
+    color: #000000;
+    font-size: 22px;
+    text-decoration: none;
+    padding-top: 5px;
+    font-weight:500;
+}
+
+#petlovers b{
+    font-size: 25px;
+    color: #cc6c13;
+    font-weight: 900;
+}
+
+.nav-link{
+    color: #011722!important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-item a:hover{
+    color: #cc6c13!important;
+    transition: .3s; 
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+button{
+    border: 2px solid #cc6c13;
+    background: #cc6c13;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 1px 1px 7px rgb(192, 192, 192);
+    transition: .2s;
+}
+
+button:hover{
+    border: 2px solid #cc6c13;
+    background: rgb(255, 255, 255);
+    padding: 5px 15px;
+    color: rgb(240, 138, 43);
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 1px 1px 7px rgb(192, 192, 192);
+    transition: .2s;
+}
+
+
+#menunav{
+    text-align: center;
+}
+
+#carouselinicio{
+    min-width: 250px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carousel-inner{
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.carousel-inner img{
+    filter: brightness(90%);
+}
+
+.btn-sm{
+    margin-bottom: 10px;
+    border: 2px solid (#cc6c13);
+    background-color:9(#cc6c13)!important;
+    font-weight: 500;
+    box-shadow: 0px 0px 5px rgb(192, 192, 192);
+}
+
+.btn-sm:hover{
+    border: 2px solid #cc6c13;
+    background: rgb(255, 255, 255)!important;
+    font-weight: 500;
+    box-shadow: 0px 0px 5px rgb(192, 192, 192);
+    color: #cc6c13;
+}
+
+/*Main*/
+
+main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: default;
+    transition: all 300ms ease;
+}
+
+.card img{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.card:hover{
+    box-shadow: 0px 2px 20px rgba(4,4,25,0.5);
+    transform: translateY(-2%);
+
+}
+
+#btntarjeta{
+    border-color: #cc6c13!important;
+    background-color:#cc6c13;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#btntarjeta:hover{
+    border-color: #cc6c13!important;
+    color: #cc6c13;
+    background-color: whitesmoke!important;
+}
+
+.card-title{
+    color: #cc6c13;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.card-text{
+    color: #011722;
+    text-align: left;
+}
+
+.card-body li{
+    color: #cc6c13;
+    font-size: 17px;
+}
+
+#carouseloferta1{
+    margin-top: 20px;
+}
+#carouseloferta2{
+    margin-top: 20px;
+}
+#carouseloferta3{
+    margin-top: 20px;
+}
+#carouseloferta4{
+    margin-top: 20px;
+}
+#carouseloferta5{
+    margin-top: 20px;
+}
+#carouseloferta6{
+    margin-top: 20px;
+}
+
+#perrosaltando{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#parrafos{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#parrafos h3{
+    color: #cc6c13;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#parrafos p{
+    color: #011722;
+    text-align: justify;
+    text-align-last: left;
+    padding: 20px;
+}
+
+/*footer*/
+
+#imgsuperior{
+    background-image: url("../img/fondo2.jpg");
+    background-size: 20%;
+    height: 35px;
+}
+
+
+#container1{
+    background-color: #011722;
+}
+
+#logo img{
+    width: 70px;
+    display: block;
+    margin: auto;
+
+}
+
+#logo p{
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: auto;
+}
+
+#logo b{
+    color: #cc6c13;
+    font-size: 25px;
+}
+
+#divfooter a{
+    text-align: center;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+div p{
+    text-align: center;
+    color: #cc6c13;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#principal div{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #011722;
+
+}
+
+#inferior2{
+    background-color: #011722;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+hr{
+    border-color: #cc6c13;
+}
+
+#inferior2 div p{
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+#inferior1 div{
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#inferior1 a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 320px){
+        #petlovers img{
+            display: none;
+        }
+}
+    
+
+
+
+
+/*nosotras*/
+
+#logonosotras img{
+        width: 15%;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+}
+
+#logonosotras p{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+#logonosotras b{
+    color: #cc6c13;
+}
+
+#vision p{
+    margin: auto;
+    width: 70%;
+    color: #011722;
+    text-align: justify;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#vision li{
+    font-weight: 600;
+    font-size: 16px;
+    margin: auto;
+    text-align: justify;
+    justify-content: center;
+    width: 70%;
+    color: #011722;
+    margin-bottom: 10px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+/*galeria*/
+
+
+#galeria h2{
+    color: #cc6c13;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#fotosgaleria h5{
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+}
+
+#fotosgaleria p{
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+}
+
+#fotosgaleria .card-body{
+    height: 100px;
+}
