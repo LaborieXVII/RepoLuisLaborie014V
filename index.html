@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/estilos.css" rel="stylesheet">
+    <title>PetLOVERS</title>
+    <link rel="icon" href="img/logoperro2.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a href="index.html" id="petlovers"><img src="img/logoperrosolo.png" alt="logo" width="60px">Pet<b>LOVERS</b></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menunav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="menunav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Tienda</a></li>
+                            <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Suscribirse</a></li>
+                        </ul>
+                        <button type="button">Iniciar Sesión</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header> 
+
+    <main>
+        <div class="container-fluid">
+            <div id="carouselinicio" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselinicio" data-slide-to="0" active></li>
+                    <li data-target="#carouselinicio" data-slide-to="1"></li>
+                    <li data-target="#carouselinicio" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel1.jpg" class="d-block w-100">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel4.jpg" class="d-block w-100">
+                    <div class="carousel-caption" id="img2">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel3.jpg" class="d-block w-100">
+                    <div class="carousel-caption" id="img3">
+                    </div>
+                </div>
+                </div>
+                <a href="#carouselinicio" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">previous</span>
+                </a>
+                <a href="#carouselinicio" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">next</span>
+                </a>
+            </div>
+        </div> <!--fincaruselprincipal-->
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <img src="img/tarjeta1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">¿Qué es un petlovers?</h5>
+                          <p class="card-text">Un pet lover es una persona que tiene un amor y cariño incondicional por su mascota, se trata de alguien que se destaca por ser responsable, amable y dedicar tiempo a su animal. Gracias a estos cuidados y preocupación por su bienestar, se logra una conexión afectiva muy especial entre humano y mascota.</p>
+                          <a href="#" class="btn btn-primary" id="btntarjeta">Saber más</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <img src="img/tarjeta2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Oferta semana santa!</h5>
+                          <p class="card-text">¡Si tienes un conejo entonces estás de suerte! Ellos son el símbolo de esta semana y es por eso que tenemos muchos descuentos en comida y accesorios para ellos. Además, creemos que deberías revisar los accesorios para gatos, quizás nos hackearon la página y se infiltraron en los precios ¡Apúrate!.
+                          </p>
+                          <a href="#" class="btn btn-primary" id="btntarjeta">Ir a la tienda</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card">
+                        <img src="img/tarjeta3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Concurso #Petlovers!</h5>
+                          <p class="card-text">Sigue estos pasos y gana premios sorpresa!</p>
+                          <ul>
+                            <li>Tómate una foto con tu mascota</li>
+                            <li>Súbela a Instagram y etiquétanos</li>
+                            <li>Utiliza el hashtag #PetLOVERS</li>
+                          </ul>
+                          <p class="card-text">Y ya estás participando! Los ganadores serán publicados en 2 días!</p>
+                          <a href="#" class="btn btn-primary" id="btntarjeta">Ir a Instagram</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>  <!--fintarjetas-->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-2">
+                    <div id="carouseloferta1" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/caruselofertas/comidaperro.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/collaperro.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/platoperro.jpg" class="d-block w-100">
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <a href="#carouseloferta1" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">previous</span>
+                    </a>
+                    <a href="#carouseloferta1" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">next</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div id="carouseloferta2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/caruselofertas/comidagato.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/rascadorgato.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/juguetegato.jpg" class="d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#carouseloferta2" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">previous</span>
+                    </a>
+                    <a href="#carouseloferta2" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">next</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div id="carouseloferta3" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/caruselofertas/comidaave.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/comidacatita.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/comidamijo.jpg" class="d-block w-100">                      
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#carouseloferta3" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">previous</span>
+                    </a>
+                    <a href="#carouseloferta3" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">next</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div id="carouseloferta4" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/caruselofertas/alimentoconejo.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/arnesconejo.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/jaulaconejo.jpg" class="d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#carouseloferta4" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">previous</span>
+                    </a>
+                    <a href="#carouseloferta4" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">next</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div id="carouseloferta5" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/caruselofertas/comidahamster.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/ruedahamster.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/casahamster.jpg" class="d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#carouseloferta5" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">previous</span>
+                    </a>
+                    <a href="#carouseloferta5" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">next</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div id="carouseloferta6" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/caruselofertas/comidagallina.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/casaperro.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/caruselofertas/bebedero.jpg" class="d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#carouseloferta6" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">previous</span>
+                    </a>
+                    <a href="#carouseloferta6" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">next</span>
+                    </a>
+                </div>
+            </div>
+        </div>  <!--fincaruselofertas-->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <img src="img/perrossaltando.jpg" id="perrosaltando" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="parrafos">
+            <div class="row">
+                <div class="col" id="parrafos">
+                    <h3>Somos socios de Garras y Patas</h3>
+                    <p>Garras y Patas nace como el sueño de dar una segunda oportunidad a miles de perros y gatos que sufren abandono, hambre y enfermedades en las calles de nuestra ciudad, nace de la unión de personas con enormes ganas de construir el país en el que queremos vivir.
+                        Es una organización de la sociedad civil y un emprendimiento social, definido como aquel que aplica estrategias comerciales para resolver problemas sociales y ambientales. 
+                        Su finalidad es realizar una actividad que beneficie a la comunidad y que produzca cambios en la mentalidad de las personas, para que todos se sumen a resolver el grave problema de la sobrepoblación de mascotas abandonadas que afecta tanto a los animales como a las personas. Involucrando a la comunidad -personas y empresas- ofreciéndoles diversas formas y oportunidades concretas y fáciles de cooperar, tales como ser socio, voluntarios de hogares temporales, entre otros, logrando de esta forma alcanzar metas más altas en rescates y reubicaciones.
+                        Garras y Patas trabajan duro y con mucha pasión, porque están salvando vidas.</p>
+                </div>
+                <div class="col" id="parrafos">
+                    <h3>Todos ayudamos a los animales abandonados</h3>
+                    <p>En nuestro emprendimiento, nos esforzamos por ofrecer productos de calidad y accesibles para todos. Además, trabajamos en colaboración con organizaciones de bienestar animal para fomentar la adopción de mascotas y mejorar el trato animal en nuestra comunidad.
+                        Ofrecemos una amplia variedad de productos para el cuidado de mascotas, que incluyen alimentación, entretenimiento, accesorios y cuidado diario. Nos aseguramos de traer lo mejor para tu mascota, independientemente de su raza, tamaño o especie. Nacimos para ayudar, es por eso que con cada compra que tú realizas nosotras aportamos a la fundación Garras y Patas. Así entre todos podremos entregar amor a tantas mascotas abandonadas ¡Seguiremos buscando maneras de ayudar a más animales! 
+                    </p>
+                </div>
+            </div>              
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <div class="container-fluid" id="container1">
+            <div class="row" id="imgsuperior"></div>
+            <div class="row" id="principal">
+                <div class="col" id="logo">
+                    <a href="index.html"><img src="img/logoperrosolo.png" alt="logo"></a>
+                    <p>Pet<b>LOVERS</b></p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <p>Explorar</p>
+                    <div id="divfooter">
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Tienda</a>
+                    <a href="galeria.html">Galería</a>
+                    <a href="#">Suscribirse</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <p>Acerca de Petlovers</p>
+                    <div id="divfooter">
+                        <a href="nosotras.html">Nuestra Visión</a>
+                        <a href="nosotras.html">Nuestra Misión</a>
+                        <a href="nosotras.html">Nuestros Objetivos</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <p>Contacto</p>
+                    <div id="divfooter">
+                        <a href="#">Dirección: Avenida siempre viva 742</a>
+                        <a href="#">petloverschile@gmail.com</a>
+                        <a href="#">+569 55112240</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="inferior1">
+                <div class="col-12">
+                    <a href="https://www.facebook.com" target="_blank"><img src="iconos/facebook.svg" alt=""></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="iconos/instagram.svg" alt=""></a>
+                    <a href="https://www.tiktok.com" target="_blank"><img src="iconos/tiktok.svg" alt=""></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="iconos/twitter.svg" alt=""></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="iconos/youtube.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="row" id="inferior2">
+                <div class="col-12">
+                    <hr>
+                    <p>© 2023 | Todos los derechos reservados | Desarrollado por Luis Laborie</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+
+</html>
